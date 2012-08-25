@@ -1,0 +1,43 @@
+<style media="all" type="text/css">@import "<?= base_url();?>menu/menu_style.css";</style>
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="<?= base_url();?>menu/includes/ie6.css" media="screen"/>
+	<![endif]-->
+<div class="wrapper1">
+	<div class="wrapper">
+		<div class="toplogo">
+			<img src="<?php echo base_url();?>/img/logo.jpg" />
+		</div>
+		<div class="nav-wrapper">			
+			<div class="nav">
+				<ul id="navigation" >
+ 					<li>
+						<a href="<?php echo base_url(); ?>admin/calendar/display">View Calendar</a>
+ 					</li>					
+ 					<li>
+						<a href="<?php echo base_url(); ?>user/video">Watch Tutorials</a>
+ 					</li>					
+ 					<li>
+						<a href="<?php echo base_url(); ?>admin/user">Edit Users</a>
+ 					</li>					
+ 					<li>
+						<a href="<?php echo base_url(); ?>admin/info">Admin Info</a>
+ 					</li>					
+ 					<li>
+						<a href="<?php echo base_url(); ?>admin/dashboard/logout">Log Out</a>
+ 					</li>					
+			   	</ul>
+			</div>			
+			<div id="breadcrumb">
+				<?php
+				if(isset($breadcrumb)){
+					echo '<ul class="breadcrumb">';
+					foreach($breadcrumb as $bread){
+						echo '<li><img src="'.$bread['icon'].'" /><a href="'.$bread['url'].'">'.$bread['txt'].'</a></li>';
+					}
+					echo '</ul>';
+				}
+				?>
+			</div>		
+		</div>
+	</div>
+</div>

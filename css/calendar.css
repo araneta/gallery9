@@ -1,0 +1,62 @@
+.calendar {
+	font-family: Arial; font-size: 12px;
+}
+table.calendar {
+	margin: auto; border-collapse: collapse;
+}
+.calendar td{
+	color:#585858;
+}
+
+.calendar .days td {
+	width: 80px; height: 80px; padding: 4px;
+	border: 1px solid #999;
+	vertical-align: top;				
+}
+.calendar .day_num,.calendar .flagperiod{
+	cursor:pointer;
+}
+.calendar th{
+	background-color:transparent;
+	height:40px;
+	vertical-align:middle;
+}
+.calendar .days td:hover {
+	background-color: #ccc;
+}
+.calendar .highlight {
+	font-weight: bold; color: #fbc540;
+}
+.calendar .content span{
+	color:#f00;
+	font-size:10px;
+}
+.volunteer{
+	color:#fff;
+}
+.volunteer a{
+	color:#fff !important;
+}
+.volunteer a:hover{
+	color:#f00 !important;
+}
+.monthname{
+	font-size:24px;
+	line-height:0;
+}
+.btnmonth{
+	margin-top:20px;
+}
+.calendar .content{
+	margin-top:4px;
+}
+/*admin */
+.meetingopen{
+	color:#FBC540 !important;
+}
+.meetingclosed{
+	color:#585858 !important;
+}
+.closed{
+	cursor:pointer;
+}

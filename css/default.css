@@ -1,0 +1,470 @@
+/** CSS Reset by Eric Meyer **/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** End CSS Reset by Eric Meyer **/
+/* default css */
+body{	
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;	
+	margin:0 auto;
+	padding:0;
+        background: url("../img/bg.jpg") repeat-x scroll center top #161616;
+        color: #fff;
+}
+
+#wrapper{
+	width:900px;
+	margin:0 auto;
+	padding:0;	
+	background-color:#343434;
+	min-height:1020px;
+}
+#nav{
+	float:left;
+	width:135px;
+	height:auto;
+}
+#main{		
+	height:auto;
+	font-size: 14px;	
+	margin-left: auto ;
+  	margin-right: auto ;
+         
+  	width:95%;	  	
+}
+.maincontent{    
+    margin:0 auto;
+    padding:0;	
+    width:100%;
+    display:table;
+}
+#ad{
+	float:right;
+	width:0px;
+	margin-right:10px;
+	background-color:#f2f2f2;	
+}
+#header{
+	font-size:12px;
+	margin-top:30px;
+	width:100%;
+	height:80px;
+}
+#footer{
+	clear:both;	
+	font-size:9px;
+        color:#A8549B;
+        text-align: center;        
+}
+.footercontent{
+    
+        background: url("../img/footer_bg.jpg") no-repeat scroll center top transparent;
+        height: 87px;
+        width: 900px;
+}
+.copyright{
+    color:#fff;
+    margin:10px 0px;
+    font-size: 9px;
+    text-align: center;
+}
+.title{
+    font-size:20px; 
+}
+
+tr.odd { 
+    background-color: #EDF5FF;
+}
+tr.even { 
+    background-color: #FFF;
+}
+th{
+    background: none repeat scroll 0 0 #D3DCE3;
+    font-weight: bold;
+}
+.error p{
+	 line-height: 20px;
+}
+.error
+{	
+    color: #f00;    
+    margin: 8px aut0;        
+	width:80%;
+	font-weight:bold;
+	margin:0 auto;
+	text-align:center;
+}
+.message
+{
+    background: url("../img/valid.png") no-repeat scroll 15px 10px #EDFCE9;
+    border: 1px solid #CCEAC4;
+    clear: both;
+    margin: 0 auto 20px;
+    padding: 20px 20px 15px 60px;
+    width: 80%;
+	font-weight:bold;
+	color:#000;
+	text-align:center;
+}
+
+a, a:link, a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fbc540;
+}
+/*jqueryui*/
+.ui-icon {
+    width:18px;
+    height: 18px;
+}
+.ui-datepicker-calendar tr{
+	font-size:12px;
+}
+.ui-button-text
+{
+	font-size:12px;
+        margin-left:6px;
+}
+.ui-button .ui-icon.fw-button-add {
+    background-image: url(../img/add.png);
+}
+.ui-button .ui-icon.fw-button-cancel {
+    background-image: url(../img/back.png);
+}
+.ui-button .ui-icon.fw-button-save {
+    background-image: url(../img/save.png);
+}
+#flex1 tr{
+    font-size: 12px;
+}
+label{
+    /*font-weight: bold;*/
+}
+input[type=text]{
+    font-size: 12px;
+    margin:6px 0;
+}
+.dlglabel{
+    font-size: 12px;
+}
+.clear {
+    clear: both;
+}
+.validateTips {font-size: 12px; border: 1px solid transparent; padding: 0.3em; }
+/*form*/
+fieldset {
+    border: medium none;
+    clear: both;
+}
+label {
+    color: #666666;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+dt {
+    
+}
+a.forgot_pass {
+    background: url("../img/help.png") no-repeat scroll left center transparent;
+    color: #256C89;
+    display: block;
+    float: right;
+    margin: 15px 20px 0 0;
+    padding: 0 0 0 18px;
+    text-decoration: none;
+}
+
+/*login*/
+#signin_form{
+    width:600px;    
+    margin: 40px auto;
+    padding: 0 0 0 0;
+    text-align:center;    
+    
+}
+#signin_form h3{
+    color: #256C89;
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 15px 0 5px 20px;
+}
+span.small{
+	font-size: 11px;
+}
+#rememberbox{
+	float:left;
+	padding:4px 0px;
+}
+#username,#password{
+	width:194px;
+}
+/*language*/
+.lang{
+    width:500px;
+    margin:0px auto;
+}
+
+.lang  a{
+    color:#fff;
+}
+/*flexi*/
+.hDivBox th{
+  font-size:1.4em;
+  font-weight:bold !important;
+  padding:6px 0px;
+}
+/*toplogo*/
+.toplogo{
+	float:left;
+	width:200px;
+	height:76px;
+}
+/*navigation*/
+.nav-wrapper {
+	width:480px;
+	float:right;
+}
+#navigation li{
+	list-style:none;
+	float:left;
+	margin:0 4px;
+}
+#navigation li a{
+	color:#fff;
+}
+#navigation li a:hover{
+	color:#fbc540;
+}
+/*breadcrumb*/
+.breadcrumb{
+    border-bottom:thin solid #EFEFEF;
+    height: 100px;
+}
+.breadcrumb li{
+    display:inline;
+    margin:0 0.4em;
+}
+#breadcrumb{
+    background-color: #fff;    
+}
+ul.breadcrumb{
+    list-style:none outside none;
+    margin:0;
+}
+.nav ul{
+    margin-top:50px;
+}
+ul.breadcrumb li a{
+    color:#000;
+    font-size: 0.9em;
+}
+/*button*/
+a.button {
+    background: none repeat scroll 0 0 #670001;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 5px;
+    padding: 5px 9px;
+    text-decoration: none;
+    width: auto;
+}
+a.button:hover {
+    background: none repeat scroll 0 0 #850a0a;
+    color: #FFFFFF;
+}
+a.button.white{
+	background-color:#eee;
+	color:#000;
+}
+a.button.white:hover{
+	background-color:#fff;
+}
+a.button span.text{
+	display: block;
+    float: right;
+    margin-left: 4px;
+    margin-top: 4px;
+    font-size: 11px;
+}
+/*titlepage*/
+.titlepage{
+	width:100%;
+	
+	margin-top: 40px;
+    height:50px;
+}
+.titlepage h1{
+	font-size:28px;
+	font-weight:bold;
+}
+.titlepage span{
+	font-size:12px;
+}
+/*/titlepage*/
+/*panel*/
+.panel h3 {
+	background-color:#474747 !important;
+}
+.pane-toggler-down span,.pane-toggler-up span{
+	color:#fff !important;
+	font-size: 16px !important;
+}
+.pnlcontent{
+	padding-top:15px !important;
+	background-color:transparent !important;
+}
+/*userinfo*/
+.volitem{
+	border-bottom:thin solid #585858;
+}
+.ulperiods span{
+	font-size: 14px;
+	font-weight:bold;
+}
+
+.ulperiods li .volitem{
+	padding:10px 0;
+	clear:both;
+}
+.uldates li .volitem{
+	padding:6px 0;	
+}
+.uldates span{
+	font-size: 12px;	
+	font-weight:normal;
+}
+#frmadmininfo label{
+	float:left;
+	width:80px;
+	padding:12px 0;
+}
+#frmadmininfo input{
+	width:220px;
+}
+/*contact*/
+.contactlbl{
+	font-size: 14px;
+	width:80px;
+	color:#fff;
+	display:block;
+	float:left;
+}
+#frmcontact input,#frmcontact textarea{
+	width:200px;
+}
+/*video*/
+.vidmenucont{
+	/*background:url("../images/rightborder.png") no-repeat scroll 100% 0 transparent;*/
+	height: 157px;
+	width: 280px;
+	border-right:thin solid #fff;
+}
+ul.vidmenu{	
+	padding-top:20px;
+}
+ul.vidmenu,ul.vidmenu li{	
+	
+}
+ul.vidmenu li a{
+	color:#ccc;
+	float:right;
+	margin-right:20px;
+}
+ul.vidmenu li div{
+	height:26px;	
+	padding-top:8px;
+	width:100%;
+}
+ul.vidmenu div.vidsel{
+	/*background:url("../images/bottomborder.png") no-repeat scroll 100% 0 transparent;*/
+	border-bottom:thin solid #fff;
+	border-top:thin solid #fff;
+}
+ul.vidmenu div.vidsel a{
+	color:#9F823A;
+}
+/*edituser*/
+#frmadduser input,#frmpassuser input{
+	width:98%;
+}
+#txteditusername{
+	width:100px;
+}
+#txteditphone{
+	width:80px;
+}
+#txteditemail{
+	width:150px;
+}
+#txteditusername,#txteditphone{
+	
+	margin-right:10px;
+}
+#frmupdate th{
+	text-align:left;
+	background:transparent;
+}
+#frmupdate table{
+	border-spacing:10px;
+	border-collapse:separate;
+}
+
+#edituserpanel input{
+	width:98%;
+}
+
+/*admin admininfo*/
+#frmadminadmininfo input{
+	width:300px;
+}
